@@ -1,2 +1,5 @@
 var playlist = {jackson: "beat it", williams: "happy", mercury: "under pressure"};
-function updatePlaylist (playlist, madonna, like a virgin)
+function updatePlaylist (Object, key, value) {
+  Object[key] = value;
+  return Object;
+}
