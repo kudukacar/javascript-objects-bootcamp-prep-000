@@ -3,3 +3,6 @@ function updatePlaylist (Object, key, value) {
   Object[key] = value;
   return Object;
 }
+function removeFromPlaylist (Object, key) {
+  
+}
